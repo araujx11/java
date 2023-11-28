@@ -1,0 +1,20 @@
+package fundamentos;
+import java.util.Scanner;
+public class masculino_feminino {
+
+	public static void main(String[] args) {
+		
+		Scanner p1=new Scanner(System.in);
+
+		System.out.println("digite a letra: ");
+		char resp1= p1.next().charAt(0);
+		if (resp1=='F')
+		System.out.println("feminino");
+		
+		else if(resp1=='M')
+		System.out.println("Masculino");
+		
+
+	}
+
+}
